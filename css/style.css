@@ -1,0 +1,25 @@
+div.tablet {
+border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: calc(5*100px);
+    height: calc(5*30px); 
+}
+
+div.visibleCorner {
+	border: 2px solid black;
+	margin: 0px;
+
+}
+div.hidingCorner {
+	position: relative;
+	top: -2px;
+	left: -2px;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+div#avatar {
+	width: calc(5*10px);
+	height: calc(5*10px);
+}
